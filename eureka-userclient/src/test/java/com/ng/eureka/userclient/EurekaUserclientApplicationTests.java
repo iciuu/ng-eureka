@@ -18,9 +18,10 @@ public class EurekaUserclientApplicationTests {
 
 	@Autowired
 	private RestTemplate restTemplate;
+
 	@Test
 	public void getCustomer() {
-		int result = restTemplate.exchange( "http://CALCULATORSERVER/add?a=3&b=13", HttpMethod.GET, null,Integer.class).getBody();
+		int result = restTemplate.exchange( "http://CALCULATORSERVER/add?a=23&b=13", HttpMethod.GET, null,Integer.class).getBody();
 		System.out.println(result);
 	}
 }

@@ -12,6 +12,8 @@
     <modules>
         <module>eureka-server</module>
         <module>eureka-client1</module>
+        <module>eureka-userclient</module>
+        <module>feign</module>
     </modules>
 
     <parent>
