@@ -5,3 +5,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:1100/eureka/  # 指定服务注册中心的地址
+feign:
+  hystrix:
+    enabled: true
