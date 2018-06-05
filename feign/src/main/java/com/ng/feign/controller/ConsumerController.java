@@ -16,4 +16,9 @@ public class ConsumerController {
     int toadd(int a, int b){
         return calculatorService.myadd(a, b);
     }
+
+    /*@RequestMapping("/toadd")
+    String toadd(int a, int b, String accesstoken){
+        return calculatorService.myadd(a, b, accesstoken);
+    }*/
 }
